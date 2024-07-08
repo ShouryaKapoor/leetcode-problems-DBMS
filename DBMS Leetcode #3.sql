@@ -1,3 +1,4 @@
+/*
 02/07/2024
 177. Nth Highest Salary
 Solved
@@ -60,9 +61,10 @@ Output:
 +------------------------+
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+*/
+/*
 Code: 
-
+*/
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
 DECLARE M INT;
@@ -73,7 +75,7 @@ SELECT DISTINCT Salary FROM Employee ORDER BY Salary DESC LIMIT M, 1
 );
 END
 
-
+/*
 Output Test case:
 
 Accepted
