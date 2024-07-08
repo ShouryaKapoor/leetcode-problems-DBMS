@@ -1,3 +1,4 @@
+/*
 01/07/2024 Problem 176. Second Highest Salary
 Solved
 Medium
@@ -55,12 +56,13 @@ Output:
 +---------------------+
 | null                |
 +---------------------+
-
+*/
+/*
 Code:
+*/
 
-# Write your MySQL query statement below
 select max(salary) as SecondHighestSalary from Employee where salary <> (select max(salary) from employee);
-
+/*
 Output:
 Accepted
 Runtime: 88 ms
@@ -81,3 +83,4 @@ Expected
 | SecondHighestSalary |
 | ------------------- |
 | 200                 |
+*/
