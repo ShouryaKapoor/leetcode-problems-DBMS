@@ -1,4 +1,4 @@
-01-07-2024 Problem 175. Combine Two Tables
+/*01-07-2024 Problem 175. Combine Two Tables
 Easy
 Topics
 Companies
@@ -69,10 +69,10 @@ addressId = 1 contains information about the address of personId = 2.
 
 
 Code:
-
+*/
 # Write your MySQL query statement below
 select Person.firstName,Person.lastName,Address.city,Address.state from Person LEFT OUTER JOIN Address ON Person.personId = Address.personId; 
-
+/*
 Output:
 Accepted
 Runtime: 102 ms
@@ -98,3 +98,4 @@ Expected
 | --------- | -------- | ------------- | -------- |
 | Allen     | Wang     | null          | null     |
 | Bob       | Alice    | New York City | New York |
+*/
